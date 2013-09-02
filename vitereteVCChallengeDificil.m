@@ -130,8 +130,18 @@
     bonotiempo=0;
     bonoturnos=0;
     puntajef=0;
-    imagenesTemp=[NSMutableArray arrayWithObjects:@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg", nil];
-    imagenes=[NSMutableArray arrayWithObjects:@"card1.jpg", @"card2.jpg", @"card3.jpg", @"card4.jpg", @"card5.jpg", @"card6.jpg", @"card7.png", @"card8.jpg", @"card9.jpg",@"card10.png",@"card1.jpg", @"card2.jpg", @"card3.jpg", @"card4.jpg", @"card5.jpg", @"card6.jpg", @"card7.png", @"card8.jpg", @"card9.jpg", @"card10.png", nil];
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone)
+    {
+        imagenesTemp=[NSMutableArray arrayWithObjects:@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg", nil];
+        imagenes=[NSMutableArray arrayWithObjects:@"card1.jpg", @"card2.jpg", @"card3.jpg", @"card4.jpg", @"card5.jpg", @"card6.jpg", @"card7.png", @"card8.jpg", @"card9.jpg",@"card10.png",@"card1.jpg", @"card2.jpg", @"card3.jpg", @"card4.jpg", @"card5.jpg", @"card6.jpg", @"card7.png", @"card8.jpg", @"card9.jpg", @"card10.png", nil];
+        
+    }
+    else if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
+    {
+        imagenesTemp=[NSMutableArray arrayWithObjects:@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg", nil];
+        imagenes=[NSMutableArray arrayWithObjects:@"card1b.jpg", @"card2b.jpg", @"card3b.jpg", @"card4b.jpg", @"card5b.jpg", @"card6b.jpg", @"card7b.png", @"card8b.jpg", @"card9b.jpg",@"card10b.png",@"card1b.jpg", @"card2b.jpg", @"card3b.jpg", @"card4b.jpg", @"card5b.jpg", @"card6b.jpg", @"card7b.png", @"card8b.jpg", @"card9b.jpg", @"card10b.png", nil];
+    }
+    
     [self shuffle];
     [self.cv reloadData];
     [self.timer invalidate];
