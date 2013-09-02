@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface vitereteViewController : UIViewController
+@interface vitereteViewController : UIViewController <UIAlertViewDelegate>
+
+
+-(IBAction)elegirNivel:(id)sender;
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex;
 
 @end

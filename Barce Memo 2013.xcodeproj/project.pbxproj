@@ -18,6 +18,47 @@
 		BA09B40517A2163100E132BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA09B40417A2163100E132BA /* Default-568h@2x.png */; };
 		BA09B40817A2163100E132BA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA09B40617A2163100E132BA /* MainStoryboard.storyboard */; };
 		BA09B40B17A2163100E132BA /* vitereteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA09B40A17A2163100E132BA /* vitereteViewController.m */; };
+		BA0C3FAB17BF458000E2C73D /* card7.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0C3FAA17BF458000E2C73D /* card7.png */; };
+		BA11A91317B067FF00443B2D /* vitereteVCChallengeMedio.m in Sources */ = {isa = PBXBuildFile; fileRef = BA11A91217B067FF00443B2D /* vitereteVCChallengeMedio.m */; };
+		BA11A91617B0681300443B2D /* vitereteVCChallengeDificil.m in Sources */ = {isa = PBXBuildFile; fileRef = BA11A91517B0681300443B2D /* vitereteVCChallengeDificil.m */; };
+		BA405AEF17A4E02F00654BDC /* vitereteVCPreferencias.m in Sources */ = {isa = PBXBuildFile; fileRef = BA405AEE17A4E02F00654BDC /* vitereteVCPreferencias.m */; };
+		BA5CA0F717D443CA00ACF4CB /* bsc14b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0EC17D443CA00ACF4CB /* bsc14b.jpg */; };
+		BA5CA0F817D443CA00ACF4CB /* card1b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0ED17D443CA00ACF4CB /* card1b.jpg */; };
+		BA5CA0F917D443CA00ACF4CB /* card2b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0EE17D443CA00ACF4CB /* card2b.jpg */; };
+		BA5CA0FA17D443CA00ACF4CB /* card3b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0EF17D443CA00ACF4CB /* card3b.jpg */; };
+		BA5CA0FB17D443CA00ACF4CB /* card4b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F017D443CA00ACF4CB /* card4b.jpg */; };
+		BA5CA0FC17D443CA00ACF4CB /* card5b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F117D443CA00ACF4CB /* card5b.jpg */; };
+		BA5CA0FD17D443CA00ACF4CB /* card6b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F217D443CA00ACF4CB /* card6b.jpg */; };
+		BA5CA0FE17D443CA00ACF4CB /* card7b.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F317D443CA00ACF4CB /* card7b.png */; };
+		BA5CA0FF17D443CA00ACF4CB /* card8b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F417D443CA00ACF4CB /* card8b.jpg */; };
+		BA5CA10017D443CA00ACF4CB /* card9b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F517D443CA00ACF4CB /* card9b.jpg */; };
+		BA5CA10117D443CA00ACF4CB /* card10b.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F617D443CA00ACF4CB /* card10b.png */; };
+		BA64741017B9D022000FBB2E /* vitereteFacilCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA64740F17B9D022000FBB2E /* vitereteFacilCell.m */; };
+		BA8EB97B17A888FA00A0F24B /* vitereteVCPuntajesAltos.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8EB97A17A888FA00A0F24B /* vitereteVCPuntajesAltos.m */; };
+		BA9B763C17BF206F00C79CF9 /* vitereteCarta.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B763B17BF206F00C79CF9 /* vitereteCarta.m */; };
+		BAA8057817AA91560030ECF7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA8057717AA91560030ECF7 /* AVFoundation.framework */; };
+		BAA8057E17AA92760030ECF7 /* vitereteVCChallengeFacil.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA8057D17AA92760030ECF7 /* vitereteVCChallengeFacil.m */; };
+		BAA8058017AA973E0030ECF7 /* sisi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAA8057F17AA973E0030ECF7 /* sisi.mp3 */; };
+		BAB0DB3517CFE15B005D3A2D /* Iphone4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB0DB3417CFE15B005D3A2D /* Iphone4.storyboard */; };
+		BAB0DB3717CFE17E005D3A2D /* IpadNonRetina.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB0DB3617CFE17E005D3A2D /* IpadNonRetina.storyboard */; };
+		BAB0DB3917CFE18C005D3A2D /* IpadRetina.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB0DB3817CFE18C005D3A2D /* IpadRetina.storyboard */; };
+		BAC2941F17C82240008761C6 /* barcelonalogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC2941E17C82240008761C6 /* barcelonalogo.png */; };
+		BAC2942317C8351F008761C6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC2942217C8351F008761C6 /* libsqlite3.dylib */; };
+		BAC44D0717AB1330002E21A0 /* unsoloidolo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAC44D0617AB1330002E21A0 /* unsoloidolo.mp3 */; };
+		BAC44D0917AB133F002E21A0 /* amarilloesmicolor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAC44D0817AB133F002E21A0 /* amarilloesmicolor.mp3 */; };
+		BADCF79E17CC01120090780B /* viteretePuntajesAltosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BADCF79D17CC01120090780B /* viteretePuntajesAltosCell.m */; };
+		BADCF7A117CC164C0090780B /* vitereteCeldaNombre.m in Sources */ = {isa = PBXBuildFile; fileRef = BADCF7A017CC164C0090780B /* vitereteCeldaNombre.m */; };
+		BADCF7A417CC165B0090780B /* vitereteCeldaPuntaje.m in Sources */ = {isa = PBXBuildFile; fileRef = BADCF7A317CC165B0090780B /* vitereteCeldaPuntaje.m */; };
+		BAFE995E17B1F7CD00AF8CA6 /* card1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995217B1F7CD00AF8CA6 /* card1.jpg */; };
+		BAFE995F17B1F7CD00AF8CA6 /* bsc14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995317B1F7CD00AF8CA6 /* bsc14.jpg */; };
+		BAFE996017B1F7CD00AF8CA6 /* card10.png in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995417B1F7CD00AF8CA6 /* card10.png */; };
+		BAFE996117B1F7CD00AF8CA6 /* card3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995517B1F7CD00AF8CA6 /* card3.jpg */; };
+		BAFE996217B1F7CD00AF8CA6 /* card8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995617B1F7CD00AF8CA6 /* card8.jpg */; };
+		BAFE996317B1F7CD00AF8CA6 /* card5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995717B1F7CD00AF8CA6 /* card5.jpg */; };
+		BAFE996417B1F7CD00AF8CA6 /* card6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995817B1F7CD00AF8CA6 /* card6.jpg */; };
+		BAFE996517B1F7CD00AF8CA6 /* card9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995917B1F7CD00AF8CA6 /* card9.jpg */; };
+		BAFE996717B1F7CD00AF8CA6 /* card2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995B17B1F7CD00AF8CA6 /* card2.jpg */; };
+		BAFE996817B1F7CD00AF8CA6 /* card4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995C17B1F7CD00AF8CA6 /* card4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +78,57 @@
 		BA09B40717A2163100E132BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		BA09B40917A2163100E132BA /* vitereteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vitereteViewController.h; sourceTree = "<group>"; };
 		BA09B40A17A2163100E132BA /* vitereteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vitereteViewController.m; sourceTree = "<group>"; };
+		BA0C3FAA17BF458000E2C73D /* card7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card7.png; sourceTree = "<group>"; };
+		BA11A91117B067FF00443B2D /* vitereteVCChallengeMedio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteVCChallengeMedio.h; sourceTree = "<group>"; };
+		BA11A91217B067FF00443B2D /* vitereteVCChallengeMedio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteVCChallengeMedio.m; sourceTree = "<group>"; };
+		BA11A91417B0681300443B2D /* vitereteVCChallengeDificil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteVCChallengeDificil.h; sourceTree = "<group>"; };
+		BA11A91517B0681300443B2D /* vitereteVCChallengeDificil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteVCChallengeDificil.m; sourceTree = "<group>"; };
+		BA405AED17A4E02F00654BDC /* vitereteVCPreferencias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteVCPreferencias.h; sourceTree = "<group>"; };
+		BA405AEE17A4E02F00654BDC /* vitereteVCPreferencias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteVCPreferencias.m; sourceTree = "<group>"; };
+		BA5CA0EC17D443CA00ACF4CB /* bsc14b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bsc14b.jpg; sourceTree = "<group>"; };
+		BA5CA0ED17D443CA00ACF4CB /* card1b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card1b.jpg; sourceTree = "<group>"; };
+		BA5CA0EE17D443CA00ACF4CB /* card2b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card2b.jpg; sourceTree = "<group>"; };
+		BA5CA0EF17D443CA00ACF4CB /* card3b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card3b.jpg; sourceTree = "<group>"; };
+		BA5CA0F017D443CA00ACF4CB /* card4b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card4b.jpg; sourceTree = "<group>"; };
+		BA5CA0F117D443CA00ACF4CB /* card5b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card5b.jpg; sourceTree = "<group>"; };
+		BA5CA0F217D443CA00ACF4CB /* card6b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card6b.jpg; sourceTree = "<group>"; };
+		BA5CA0F317D443CA00ACF4CB /* card7b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card7b.png; sourceTree = "<group>"; };
+		BA5CA0F417D443CA00ACF4CB /* card8b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card8b.jpg; sourceTree = "<group>"; };
+		BA5CA0F517D443CA00ACF4CB /* card9b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card9b.jpg; sourceTree = "<group>"; };
+		BA5CA0F617D443CA00ACF4CB /* card10b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card10b.png; sourceTree = "<group>"; };
+		BA64740E17B9D022000FBB2E /* vitereteFacilCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteFacilCell.h; sourceTree = "<group>"; };
+		BA64740F17B9D022000FBB2E /* vitereteFacilCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteFacilCell.m; sourceTree = "<group>"; };
+		BA8EB97917A888FA00A0F24B /* vitereteVCPuntajesAltos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteVCPuntajesAltos.h; sourceTree = "<group>"; };
+		BA8EB97A17A888FA00A0F24B /* vitereteVCPuntajesAltos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteVCPuntajesAltos.m; sourceTree = "<group>"; };
+		BA9B763A17BF206F00C79CF9 /* vitereteCarta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteCarta.h; sourceTree = "<group>"; };
+		BA9B763B17BF206F00C79CF9 /* vitereteCarta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteCarta.m; sourceTree = "<group>"; };
+		BAA8057717AA91560030ECF7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BAA8057C17AA92760030ECF7 /* vitereteVCChallengeFacil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteVCChallengeFacil.h; sourceTree = "<group>"; };
+		BAA8057D17AA92760030ECF7 /* vitereteVCChallengeFacil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteVCChallengeFacil.m; sourceTree = "<group>"; };
+		BAA8057F17AA973E0030ECF7 /* sisi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sisi.mp3; path = "../../../Trabajos Android/MisApps/BarcelonaSCMemoryGame/res/raw/sisi.mp3"; sourceTree = "<group>"; };
+		BAB0DB3417CFE15B005D3A2D /* Iphone4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Iphone4.storyboard; sourceTree = "<group>"; };
+		BAB0DB3617CFE17E005D3A2D /* IpadNonRetina.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IpadNonRetina.storyboard; sourceTree = "<group>"; };
+		BAB0DB3817CFE18C005D3A2D /* IpadRetina.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IpadRetina.storyboard; sourceTree = "<group>"; };
+		BAC2941E17C82240008761C6 /* barcelonalogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcelonalogo.png; sourceTree = "<group>"; };
+		BAC2942217C8351F008761C6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BAC44D0617AB1330002E21A0 /* unsoloidolo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = unsoloidolo.mp3; path = "../../../Trabajos Android/MisApps/BarcelonaSCMemoryGame/res/raw/unsoloidolo.mp3"; sourceTree = "<group>"; };
+		BAC44D0817AB133F002E21A0 /* amarilloesmicolor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = amarilloesmicolor.mp3; path = "../../../Trabajos Android/MisApps/BarcelonaSCMemoryGame/res/raw/amarilloesmicolor.mp3"; sourceTree = "<group>"; };
+		BADCF79C17CC01120090780B /* viteretePuntajesAltosCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viteretePuntajesAltosCell.h; sourceTree = "<group>"; };
+		BADCF79D17CC01120090780B /* viteretePuntajesAltosCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viteretePuntajesAltosCell.m; sourceTree = "<group>"; };
+		BADCF79F17CC164C0090780B /* vitereteCeldaNombre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteCeldaNombre.h; sourceTree = "<group>"; };
+		BADCF7A017CC164C0090780B /* vitereteCeldaNombre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteCeldaNombre.m; sourceTree = "<group>"; };
+		BADCF7A217CC165B0090780B /* vitereteCeldaPuntaje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteCeldaPuntaje.h; sourceTree = "<group>"; };
+		BADCF7A317CC165B0090780B /* vitereteCeldaPuntaje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteCeldaPuntaje.m; sourceTree = "<group>"; };
+		BAFE995217B1F7CD00AF8CA6 /* card1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card1.jpg; sourceTree = "<group>"; };
+		BAFE995317B1F7CD00AF8CA6 /* bsc14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bsc14.jpg; sourceTree = "<group>"; };
+		BAFE995417B1F7CD00AF8CA6 /* card10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card10.png; sourceTree = "<group>"; };
+		BAFE995517B1F7CD00AF8CA6 /* card3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card3.jpg; sourceTree = "<group>"; };
+		BAFE995617B1F7CD00AF8CA6 /* card8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card8.jpg; sourceTree = "<group>"; };
+		BAFE995717B1F7CD00AF8CA6 /* card5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card5.jpg; sourceTree = "<group>"; };
+		BAFE995817B1F7CD00AF8CA6 /* card6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card6.jpg; sourceTree = "<group>"; };
+		BAFE995917B1F7CD00AF8CA6 /* card9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card9.jpg; sourceTree = "<group>"; };
+		BAFE995B17B1F7CD00AF8CA6 /* card2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card2.jpg; sourceTree = "<group>"; };
+		BAFE995C17B1F7CD00AF8CA6 /* card4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +136,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC2942317C8351F008761C6 /* libsqlite3.dylib in Frameworks */,
+				BAA8057817AA91560030ECF7 /* AVFoundation.framework in Frameworks */,
 				BA09B3EF17A2163100E132BA /* UIKit.framework in Frameworks */,
 				BA09B3F117A2163100E132BA /* Foundation.framework in Frameworks */,
 				BA09B3F317A2163100E132BA /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +150,12 @@
 		BA09B3E217A2163100E132BA = {
 			isa = PBXGroup;
 			children = (
+				BAC2942417C8352F008761C6 /* Base */,
+				BA9B763617BF1FF700C79CF9 /* Carta */,
+				BAFE995017B1F79E00AF8CA6 /* Imágenes */,
+				BAC44D0517AB1320002E21A0 /* Canciones */,
+				BAA8057717AA91560030ECF7 /* AVFoundation.framework */,
+				BA405AE917A4DFDD00654BDC /* Controllers */,
 				BA09B3F417A2163100E132BA /* Barce Memo 2013 */,
 				BA09B3ED17A2163100E132BA /* Frameworks */,
 				BA09B3EC17A2163100E132BA /* Products */,
@@ -86,6 +186,9 @@
 				BA09B3FD17A2163100E132BA /* vitereteAppDelegate.h */,
 				BA09B3FE17A2163100E132BA /* vitereteAppDelegate.m */,
 				BA09B40617A2163100E132BA /* MainStoryboard.storyboard */,
+				BAB0DB3417CFE15B005D3A2D /* Iphone4.storyboard */,
+				BAB0DB3817CFE18C005D3A2D /* IpadRetina.storyboard */,
+				BAB0DB3617CFE17E005D3A2D /* IpadNonRetina.storyboard */,
 				BA09B40917A2163100E132BA /* vitereteViewController.h */,
 				BA09B40A17A2163100E132BA /* vitereteViewController.m */,
 				BA09B3F517A2163100E132BA /* Supporting Files */,
@@ -105,6 +208,160 @@
 				BA09B40417A2163100E132BA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA405AE917A4DFDD00654BDC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA8EB97817A888BF00A0F24B /* Puntajes Altos */,
+				BA405AEC17A4E00300654BDC /* Preferencias */,
+				BA405AEB17A4DFF800654BDC /* Mejores Puntajes */,
+				BA405AEA17A4DFE400654BDC /* ChallengeMode */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BA405AEA17A4DFE400654BDC /* ChallengeMode */ = {
+			isa = PBXGroup;
+			children = (
+				BAA8057B17AA92490030ECF7 /* ChallengeModeDificil */,
+				BAA8057A17AA92400030ECF7 /* ChallengeModeMedio */,
+				BAA8057917AA92340030ECF7 /* ChallengeModeFacil */,
+			);
+			name = ChallengeMode;
+			sourceTree = "<group>";
+		};
+		BA405AEB17A4DFF800654BDC /* Mejores Puntajes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Mejores Puntajes";
+			sourceTree = "<group>";
+		};
+		BA405AEC17A4E00300654BDC /* Preferencias */ = {
+			isa = PBXGroup;
+			children = (
+				BA405AED17A4E02F00654BDC /* vitereteVCPreferencias.h */,
+				BA405AEE17A4E02F00654BDC /* vitereteVCPreferencias.m */,
+			);
+			name = Preferencias;
+			sourceTree = "<group>";
+		};
+		BA5CA0EA17D4439C00ACF4CB /* Iphone */ = {
+			isa = PBXGroup;
+			children = (
+				BA0C3FAA17BF458000E2C73D /* card7.png */,
+				BAFE995217B1F7CD00AF8CA6 /* card1.jpg */,
+				BAFE995317B1F7CD00AF8CA6 /* bsc14.jpg */,
+				BAFE995417B1F7CD00AF8CA6 /* card10.png */,
+				BAFE995517B1F7CD00AF8CA6 /* card3.jpg */,
+				BAFE995617B1F7CD00AF8CA6 /* card8.jpg */,
+				BAFE995717B1F7CD00AF8CA6 /* card5.jpg */,
+				BAFE995817B1F7CD00AF8CA6 /* card6.jpg */,
+				BAFE995917B1F7CD00AF8CA6 /* card9.jpg */,
+				BAFE995B17B1F7CD00AF8CA6 /* card2.jpg */,
+				BAFE995C17B1F7CD00AF8CA6 /* card4.jpg */,
+			);
+			name = Iphone;
+			sourceTree = "<group>";
+		};
+		BA5CA0EB17D443A400ACF4CB /* Ipad */ = {
+			isa = PBXGroup;
+			children = (
+				BA5CA0EC17D443CA00ACF4CB /* bsc14b.jpg */,
+				BA5CA0ED17D443CA00ACF4CB /* card1b.jpg */,
+				BA5CA0EE17D443CA00ACF4CB /* card2b.jpg */,
+				BA5CA0EF17D443CA00ACF4CB /* card3b.jpg */,
+				BA5CA0F017D443CA00ACF4CB /* card4b.jpg */,
+				BA5CA0F117D443CA00ACF4CB /* card5b.jpg */,
+				BA5CA0F217D443CA00ACF4CB /* card6b.jpg */,
+				BA5CA0F317D443CA00ACF4CB /* card7b.png */,
+				BA5CA0F417D443CA00ACF4CB /* card8b.jpg */,
+				BA5CA0F517D443CA00ACF4CB /* card9b.jpg */,
+				BA5CA0F617D443CA00ACF4CB /* card10b.png */,
+			);
+			name = Ipad;
+			sourceTree = "<group>";
+		};
+		BA8EB97817A888BF00A0F24B /* Puntajes Altos */ = {
+			isa = PBXGroup;
+			children = (
+				BA8EB97917A888FA00A0F24B /* vitereteVCPuntajesAltos.h */,
+				BA8EB97A17A888FA00A0F24B /* vitereteVCPuntajesAltos.m */,
+				BADCF79C17CC01120090780B /* viteretePuntajesAltosCell.h */,
+				BADCF79D17CC01120090780B /* viteretePuntajesAltosCell.m */,
+				BADCF79F17CC164C0090780B /* vitereteCeldaNombre.h */,
+				BADCF7A017CC164C0090780B /* vitereteCeldaNombre.m */,
+				BADCF7A217CC165B0090780B /* vitereteCeldaPuntaje.h */,
+				BADCF7A317CC165B0090780B /* vitereteCeldaPuntaje.m */,
+			);
+			name = "Puntajes Altos";
+			sourceTree = "<group>";
+		};
+		BA9B763617BF1FF700C79CF9 /* Carta */ = {
+			isa = PBXGroup;
+			children = (
+				BA9B763A17BF206F00C79CF9 /* vitereteCarta.h */,
+				BA9B763B17BF206F00C79CF9 /* vitereteCarta.m */,
+			);
+			name = Carta;
+			sourceTree = "<group>";
+		};
+		BAA8057917AA92340030ECF7 /* ChallengeModeFacil */ = {
+			isa = PBXGroup;
+			children = (
+				BAA8057C17AA92760030ECF7 /* vitereteVCChallengeFacil.h */,
+				BAA8057D17AA92760030ECF7 /* vitereteVCChallengeFacil.m */,
+				BA64740E17B9D022000FBB2E /* vitereteFacilCell.h */,
+				BA64740F17B9D022000FBB2E /* vitereteFacilCell.m */,
+			);
+			name = ChallengeModeFacil;
+			sourceTree = "<group>";
+		};
+		BAA8057A17AA92400030ECF7 /* ChallengeModeMedio */ = {
+			isa = PBXGroup;
+			children = (
+				BA11A91117B067FF00443B2D /* vitereteVCChallengeMedio.h */,
+				BA11A91217B067FF00443B2D /* vitereteVCChallengeMedio.m */,
+			);
+			name = ChallengeModeMedio;
+			sourceTree = "<group>";
+		};
+		BAA8057B17AA92490030ECF7 /* ChallengeModeDificil */ = {
+			isa = PBXGroup;
+			children = (
+				BA11A91417B0681300443B2D /* vitereteVCChallengeDificil.h */,
+				BA11A91517B0681300443B2D /* vitereteVCChallengeDificil.m */,
+			);
+			name = ChallengeModeDificil;
+			sourceTree = "<group>";
+		};
+		BAC2942417C8352F008761C6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BAC2942217C8351F008761C6 /* libsqlite3.dylib */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BAC44D0517AB1320002E21A0 /* Canciones */ = {
+			isa = PBXGroup;
+			children = (
+				BAC44D0817AB133F002E21A0 /* amarilloesmicolor.mp3 */,
+				BAC44D0617AB1330002E21A0 /* unsoloidolo.mp3 */,
+				BAA8057F17AA973E0030ECF7 /* sisi.mp3 */,
+			);
+			name = Canciones;
+			sourceTree = "<group>";
+		};
+		BAFE995017B1F79E00AF8CA6 /* Imágenes */ = {
+			isa = PBXGroup;
+			children = (
+				BA5CA0EB17D443A400ACF4CB /* Ipad */,
+				BA5CA0EA17D4439C00ACF4CB /* Iphone */,
+				BAC2941E17C82240008761C6 /* barcelonalogo.png */,
+			);
+			name = "Imágenes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +421,35 @@
 				BA09B40317A2163100E132BA /* Default@2x.png in Resources */,
 				BA09B40517A2163100E132BA /* Default-568h@2x.png in Resources */,
 				BA09B40817A2163100E132BA /* MainStoryboard.storyboard in Resources */,
+				BAA8058017AA973E0030ECF7 /* sisi.mp3 in Resources */,
+				BAC44D0717AB1330002E21A0 /* unsoloidolo.mp3 in Resources */,
+				BAC44D0917AB133F002E21A0 /* amarilloesmicolor.mp3 in Resources */,
+				BAFE995E17B1F7CD00AF8CA6 /* card1.jpg in Resources */,
+				BAFE995F17B1F7CD00AF8CA6 /* bsc14.jpg in Resources */,
+				BAFE996017B1F7CD00AF8CA6 /* card10.png in Resources */,
+				BAFE996117B1F7CD00AF8CA6 /* card3.jpg in Resources */,
+				BAFE996217B1F7CD00AF8CA6 /* card8.jpg in Resources */,
+				BAFE996317B1F7CD00AF8CA6 /* card5.jpg in Resources */,
+				BAFE996417B1F7CD00AF8CA6 /* card6.jpg in Resources */,
+				BAFE996517B1F7CD00AF8CA6 /* card9.jpg in Resources */,
+				BAFE996717B1F7CD00AF8CA6 /* card2.jpg in Resources */,
+				BAFE996817B1F7CD00AF8CA6 /* card4.jpg in Resources */,
+				BA0C3FAB17BF458000E2C73D /* card7.png in Resources */,
+				BAC2941F17C82240008761C6 /* barcelonalogo.png in Resources */,
+				BAB0DB3517CFE15B005D3A2D /* Iphone4.storyboard in Resources */,
+				BAB0DB3717CFE17E005D3A2D /* IpadNonRetina.storyboard in Resources */,
+				BAB0DB3917CFE18C005D3A2D /* IpadRetina.storyboard in Resources */,
+				BA5CA0F717D443CA00ACF4CB /* bsc14b.jpg in Resources */,
+				BA5CA0F817D443CA00ACF4CB /* card1b.jpg in Resources */,
+				BA5CA0F917D443CA00ACF4CB /* card2b.jpg in Resources */,
+				BA5CA0FA17D443CA00ACF4CB /* card3b.jpg in Resources */,
+				BA5CA0FB17D443CA00ACF4CB /* card4b.jpg in Resources */,
+				BA5CA0FC17D443CA00ACF4CB /* card5b.jpg in Resources */,
+				BA5CA0FD17D443CA00ACF4CB /* card6b.jpg in Resources */,
+				BA5CA0FE17D443CA00ACF4CB /* card7b.png in Resources */,
+				BA5CA0FF17D443CA00ACF4CB /* card8b.jpg in Resources */,
+				BA5CA10017D443CA00ACF4CB /* card9b.jpg in Resources */,
+				BA5CA10117D443CA00ACF4CB /* card10b.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +463,16 @@
 				BA09B3FB17A2163100E132BA /* main.m in Sources */,
 				BA09B3FF17A2163100E132BA /* vitereteAppDelegate.m in Sources */,
 				BA09B40B17A2163100E132BA /* vitereteViewController.m in Sources */,
+				BA405AEF17A4E02F00654BDC /* vitereteVCPreferencias.m in Sources */,
+				BA8EB97B17A888FA00A0F24B /* vitereteVCPuntajesAltos.m in Sources */,
+				BAA8057E17AA92760030ECF7 /* vitereteVCChallengeFacil.m in Sources */,
+				BA11A91317B067FF00443B2D /* vitereteVCChallengeMedio.m in Sources */,
+				BA11A91617B0681300443B2D /* vitereteVCChallengeDificil.m in Sources */,
+				BA64741017B9D022000FBB2E /* vitereteFacilCell.m in Sources */,
+				BA9B763C17BF206F00C79CF9 /* vitereteCarta.m in Sources */,
+				BADCF79E17CC01120090780B /* viteretePuntajesAltosCell.m in Sources */,
+				BADCF7A117CC164C0090780B /* vitereteCeldaNombre.m in Sources */,
+				BADCF7A417CC165B0090780B /* vitereteCeldaPuntaje.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +560,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Barce Memo 2013/Barce Memo 2013-Prefix.pch";
 				INFOPLIST_FILE = "Barce Memo 2013/Barce Memo 2013-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -275,7 +573,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Barce Memo 2013/Barce Memo 2013-Prefix.pch";
 				INFOPLIST_FILE = "Barce Memo 2013/Barce Memo 2013-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -299,6 +599,7 @@
 				BA09B41017A2163100E132BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
