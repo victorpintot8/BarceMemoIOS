@@ -13,49 +13,59 @@
 		BA09B3F917A2163100E132BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA09B3F717A2163100E132BA /* InfoPlist.strings */; };
 		BA09B3FB17A2163100E132BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA09B3FA17A2163100E132BA /* main.m */; };
 		BA09B3FF17A2163100E132BA /* vitereteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA09B3FE17A2163100E132BA /* vitereteAppDelegate.m */; };
-		BA09B40117A2163100E132BA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BA09B40017A2163100E132BA /* Default.png */; };
-		BA09B40317A2163100E132BA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA09B40217A2163100E132BA /* Default@2x.png */; };
-		BA09B40517A2163100E132BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA09B40417A2163100E132BA /* Default-568h@2x.png */; };
 		BA09B40817A2163100E132BA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA09B40617A2163100E132BA /* MainStoryboard.storyboard */; };
 		BA09B40B17A2163100E132BA /* vitereteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA09B40A17A2163100E132BA /* vitereteViewController.m */; };
 		BA0C3FAB17BF458000E2C73D /* card7.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0C3FAA17BF458000E2C73D /* card7.png */; };
 		BA11A91317B067FF00443B2D /* vitereteVCChallengeMedio.m in Sources */ = {isa = PBXBuildFile; fileRef = BA11A91217B067FF00443B2D /* vitereteVCChallengeMedio.m */; };
 		BA11A91617B0681300443B2D /* vitereteVCChallengeDificil.m in Sources */ = {isa = PBXBuildFile; fileRef = BA11A91517B0681300443B2D /* vitereteVCChallengeDificil.m */; };
+		BA2F13F917EF5596005D287E /* Tequilla Sunrise.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA2F13F817EF5596005D287E /* Tequilla Sunrise.ttf */; };
 		BA405AEF17A4E02F00654BDC /* vitereteVCPreferencias.m in Sources */ = {isa = PBXBuildFile; fileRef = BA405AEE17A4E02F00654BDC /* vitereteVCPreferencias.m */; };
-		BA5CA0F717D443CA00ACF4CB /* bsc14b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0EC17D443CA00ACF4CB /* bsc14b.jpg */; };
+		BA496DA317FC95D3006E3FE8 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA496DA217FC95D3006E3FE8 /* iAd.framework */; };
+		BA4C8E4A1801CB2600CC84E7 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4C8E491801CB2600CC84E7 /* GameKit.framework */; };
 		BA5CA0F817D443CA00ACF4CB /* card1b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0ED17D443CA00ACF4CB /* card1b.jpg */; };
 		BA5CA0F917D443CA00ACF4CB /* card2b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0EE17D443CA00ACF4CB /* card2b.jpg */; };
 		BA5CA0FA17D443CA00ACF4CB /* card3b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0EF17D443CA00ACF4CB /* card3b.jpg */; };
 		BA5CA0FB17D443CA00ACF4CB /* card4b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F017D443CA00ACF4CB /* card4b.jpg */; };
 		BA5CA0FC17D443CA00ACF4CB /* card5b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F117D443CA00ACF4CB /* card5b.jpg */; };
-		BA5CA0FD17D443CA00ACF4CB /* card6b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F217D443CA00ACF4CB /* card6b.jpg */; };
 		BA5CA0FE17D443CA00ACF4CB /* card7b.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F317D443CA00ACF4CB /* card7b.png */; };
 		BA5CA0FF17D443CA00ACF4CB /* card8b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F417D443CA00ACF4CB /* card8b.jpg */; };
 		BA5CA10017D443CA00ACF4CB /* card9b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F517D443CA00ACF4CB /* card9b.jpg */; };
 		BA5CA10117D443CA00ACF4CB /* card10b.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5CA0F617D443CA00ACF4CB /* card10b.png */; };
+		BA5F587B17F4C71700176C3B /* boton.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5F587A17F4C71700176C3B /* boton.png */; };
+		BA5F587F17F4C92A00176C3B /* boton_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BA5F587E17F4C92A00176C3B /* boton_ipad.png */; };
 		BA64741017B9D022000FBB2E /* vitereteFacilCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA64740F17B9D022000FBB2E /* vitereteFacilCell.m */; };
+		BA6D8140180DF82A00B23CD5 /* vitereteResultadoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6D813F180DF82A00B23CD5 /* vitereteResultadoViewController.m */; };
+		BA6D8143180E011800B23CD5 /* boton_recargar.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6D8142180E011800B23CD5 /* boton_recargar.png */; };
+		BA6D8147180E04D800B23CD5 /* boton_atras.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6D8146180E04D800B23CD5 /* boton_atras.png */; };
+		BA6D8149180E2E4200B23CD5 /* boton_compartir.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6D8148180E2E4200B23CD5 /* boton_compartir.png */; };
+		BA77846D18245426007AC985 /* fondo4a.png in Resources */ = {isa = PBXBuildFile; fileRef = BA77846C18245426007AC985 /* fondo4a.png */; };
+		BA77848518247AC8007AC985 /* fondo_ipada.png in Resources */ = {isa = PBXBuildFile; fileRef = BA77848018247AC8007AC985 /* fondo_ipada.png */; };
+		BA7F3A6818024FCB00668F8B /* GameCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7F3A6718024FCB00668F8B /* GameCenterManager.m */; };
 		BA8EB97B17A888FA00A0F24B /* vitereteVCPuntajesAltos.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8EB97A17A888FA00A0F24B /* vitereteVCPuntajesAltos.m */; };
 		BA9B763C17BF206F00C79CF9 /* vitereteCarta.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9B763B17BF206F00C79CF9 /* vitereteCarta.m */; };
+		BA9BE96A17F7FC900028FF8D /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9BE96917F7FC900028FF8D /* Images-2.xcassets */; };
 		BAA8057817AA91560030ECF7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA8057717AA91560030ECF7 /* AVFoundation.framework */; };
 		BAA8057E17AA92760030ECF7 /* vitereteVCChallengeFacil.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA8057D17AA92760030ECF7 /* vitereteVCChallengeFacil.m */; };
 		BAA8058017AA973E0030ECF7 /* sisi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAA8057F17AA973E0030ECF7 /* sisi.mp3 */; };
+		BAAB7FEA1825DABE009A3003 /* card6.png in Resources */ = {isa = PBXBuildFile; fileRef = BAAB7FE91825DABE009A3003 /* card6.png */; };
+		BAAB7FEE1825DCA5009A3003 /* card6b.png in Resources */ = {isa = PBXBuildFile; fileRef = BAAB7FED1825DCA5009A3003 /* card6b.png */; };
 		BAB0DB3517CFE15B005D3A2D /* Iphone4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB0DB3417CFE15B005D3A2D /* Iphone4.storyboard */; };
-		BAB0DB3717CFE17E005D3A2D /* IpadNonRetina.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB0DB3617CFE17E005D3A2D /* IpadNonRetina.storyboard */; };
 		BAB0DB3917CFE18C005D3A2D /* IpadRetina.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB0DB3817CFE18C005D3A2D /* IpadRetina.storyboard */; };
-		BAC2941F17C82240008761C6 /* barcelonalogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC2941E17C82240008761C6 /* barcelonalogo.png */; };
 		BAC2942317C8351F008761C6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC2942217C8351F008761C6 /* libsqlite3.dylib */; };
 		BAC44D0717AB1330002E21A0 /* unsoloidolo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAC44D0617AB1330002E21A0 /* unsoloidolo.mp3 */; };
 		BAC44D0917AB133F002E21A0 /* amarilloesmicolor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAC44D0817AB133F002E21A0 /* amarilloesmicolor.mp3 */; };
+		BAC7C5AA180B9F0E00830891 /* vitereteBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC7C5A9180B9F0E00830891 /* vitereteBaseManager.m */; };
+		BAC90DC91826D2360095CCFC /* barcelonalogo.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC90DC81826D2360095CCFC /* barcelonalogo.png */; };
 		BADCF79E17CC01120090780B /* viteretePuntajesAltosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BADCF79D17CC01120090780B /* viteretePuntajesAltosCell.m */; };
 		BADCF7A117CC164C0090780B /* vitereteCeldaNombre.m in Sources */ = {isa = PBXBuildFile; fileRef = BADCF7A017CC164C0090780B /* vitereteCeldaNombre.m */; };
 		BADCF7A417CC165B0090780B /* vitereteCeldaPuntaje.m in Sources */ = {isa = PBXBuildFile; fileRef = BADCF7A317CC165B0090780B /* vitereteCeldaPuntaje.m */; };
+		BAF0563117F46FCF003B2E52 /* bsc14.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF0563017F46FCF003B2E52 /* bsc14.png */; };
+		BAF0563517F47250003B2E52 /* bsc14b.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF0563417F47250003B2E52 /* bsc14b.png */; };
 		BAFE995E17B1F7CD00AF8CA6 /* card1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995217B1F7CD00AF8CA6 /* card1.jpg */; };
-		BAFE995F17B1F7CD00AF8CA6 /* bsc14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995317B1F7CD00AF8CA6 /* bsc14.jpg */; };
 		BAFE996017B1F7CD00AF8CA6 /* card10.png in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995417B1F7CD00AF8CA6 /* card10.png */; };
 		BAFE996117B1F7CD00AF8CA6 /* card3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995517B1F7CD00AF8CA6 /* card3.jpg */; };
 		BAFE996217B1F7CD00AF8CA6 /* card8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995617B1F7CD00AF8CA6 /* card8.jpg */; };
 		BAFE996317B1F7CD00AF8CA6 /* card5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995717B1F7CD00AF8CA6 /* card5.jpg */; };
-		BAFE996417B1F7CD00AF8CA6 /* card6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995817B1F7CD00AF8CA6 /* card6.jpg */; };
 		BAFE996517B1F7CD00AF8CA6 /* card9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995917B1F7CD00AF8CA6 /* card9.jpg */; };
 		BAFE996717B1F7CD00AF8CA6 /* card2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995B17B1F7CD00AF8CA6 /* card2.jpg */; };
 		BAFE996817B1F7CD00AF8CA6 /* card4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFE995C17B1F7CD00AF8CA6 /* card4.jpg */; };
@@ -72,9 +82,6 @@
 		BA09B3FC17A2163100E132BA /* Barce Memo 2013-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Barce Memo 2013-Prefix.pch"; sourceTree = "<group>"; };
 		BA09B3FD17A2163100E132BA /* vitereteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vitereteAppDelegate.h; sourceTree = "<group>"; };
 		BA09B3FE17A2163100E132BA /* vitereteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vitereteAppDelegate.m; sourceTree = "<group>"; };
-		BA09B40017A2163100E132BA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		BA09B40217A2163100E132BA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		BA09B40417A2163100E132BA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BA09B40717A2163100E132BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		BA09B40917A2163100E132BA /* vitereteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vitereteViewController.h; sourceTree = "<group>"; };
 		BA09B40A17A2163100E132BA /* vitereteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vitereteViewController.m; sourceTree = "<group>"; };
@@ -83,49 +90,66 @@
 		BA11A91217B067FF00443B2D /* vitereteVCChallengeMedio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteVCChallengeMedio.m; sourceTree = "<group>"; };
 		BA11A91417B0681300443B2D /* vitereteVCChallengeDificil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteVCChallengeDificil.h; sourceTree = "<group>"; };
 		BA11A91517B0681300443B2D /* vitereteVCChallengeDificil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteVCChallengeDificil.m; sourceTree = "<group>"; };
+		BA2F13F817EF5596005D287E /* Tequilla Sunrise.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tequilla Sunrise.ttf"; sourceTree = "<group>"; };
 		BA405AED17A4E02F00654BDC /* vitereteVCPreferencias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteVCPreferencias.h; sourceTree = "<group>"; };
 		BA405AEE17A4E02F00654BDC /* vitereteVCPreferencias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteVCPreferencias.m; sourceTree = "<group>"; };
-		BA5CA0EC17D443CA00ACF4CB /* bsc14b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bsc14b.jpg; sourceTree = "<group>"; };
+		BA496DA217FC95D3006E3FE8 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		BA4C568617F68D5D008F679F /* bsc120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bsc120.png; sourceTree = "<group>"; };
+		BA4C8E491801CB2600CC84E7 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		BA5CA0ED17D443CA00ACF4CB /* card1b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card1b.jpg; sourceTree = "<group>"; };
 		BA5CA0EE17D443CA00ACF4CB /* card2b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card2b.jpg; sourceTree = "<group>"; };
 		BA5CA0EF17D443CA00ACF4CB /* card3b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card3b.jpg; sourceTree = "<group>"; };
 		BA5CA0F017D443CA00ACF4CB /* card4b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card4b.jpg; sourceTree = "<group>"; };
 		BA5CA0F117D443CA00ACF4CB /* card5b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card5b.jpg; sourceTree = "<group>"; };
-		BA5CA0F217D443CA00ACF4CB /* card6b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card6b.jpg; sourceTree = "<group>"; };
 		BA5CA0F317D443CA00ACF4CB /* card7b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card7b.png; sourceTree = "<group>"; };
 		BA5CA0F417D443CA00ACF4CB /* card8b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card8b.jpg; sourceTree = "<group>"; };
 		BA5CA0F517D443CA00ACF4CB /* card9b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card9b.jpg; sourceTree = "<group>"; };
 		BA5CA0F617D443CA00ACF4CB /* card10b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card10b.png; sourceTree = "<group>"; };
+		BA5F587A17F4C71700176C3B /* boton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton.png; sourceTree = "<group>"; };
+		BA5F587E17F4C92A00176C3B /* boton_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_ipad.png; sourceTree = "<group>"; };
 		BA64740E17B9D022000FBB2E /* vitereteFacilCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteFacilCell.h; sourceTree = "<group>"; };
 		BA64740F17B9D022000FBB2E /* vitereteFacilCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteFacilCell.m; sourceTree = "<group>"; };
+		BA6D813E180DF82A00B23CD5 /* vitereteResultadoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteResultadoViewController.h; sourceTree = "<group>"; };
+		BA6D813F180DF82A00B23CD5 /* vitereteResultadoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteResultadoViewController.m; sourceTree = "<group>"; };
+		BA6D8142180E011800B23CD5 /* boton_recargar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_recargar.png; sourceTree = "<group>"; };
+		BA6D8146180E04D800B23CD5 /* boton_atras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_atras.png; sourceTree = "<group>"; };
+		BA6D8148180E2E4200B23CD5 /* boton_compartir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_compartir.png; sourceTree = "<group>"; };
+		BA77846C18245426007AC985 /* fondo4a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo4a.png; sourceTree = "<group>"; };
+		BA77848018247AC8007AC985 /* fondo_ipada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo_ipada.png; sourceTree = "<group>"; };
+		BA7F3A6618024FCB00668F8B /* GameCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterManager.h; sourceTree = "<group>"; };
+		BA7F3A6718024FCB00668F8B /* GameCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterManager.m; sourceTree = "<group>"; };
 		BA8EB97917A888FA00A0F24B /* vitereteVCPuntajesAltos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteVCPuntajesAltos.h; sourceTree = "<group>"; };
 		BA8EB97A17A888FA00A0F24B /* vitereteVCPuntajesAltos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteVCPuntajesAltos.m; sourceTree = "<group>"; };
 		BA9B763A17BF206F00C79CF9 /* vitereteCarta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteCarta.h; sourceTree = "<group>"; };
 		BA9B763B17BF206F00C79CF9 /* vitereteCarta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteCarta.m; sourceTree = "<group>"; };
+		BA9BE96917F7FC900028FF8D /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		BAA8057717AA91560030ECF7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BAA8057C17AA92760030ECF7 /* vitereteVCChallengeFacil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteVCChallengeFacil.h; sourceTree = "<group>"; };
 		BAA8057D17AA92760030ECF7 /* vitereteVCChallengeFacil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteVCChallengeFacil.m; sourceTree = "<group>"; };
 		BAA8057F17AA973E0030ECF7 /* sisi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sisi.mp3; path = "../../../Trabajos Android/MisApps/BarcelonaSCMemoryGame/res/raw/sisi.mp3"; sourceTree = "<group>"; };
+		BAAB7FE91825DABE009A3003 /* card6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card6.png; sourceTree = "<group>"; };
+		BAAB7FED1825DCA5009A3003 /* card6b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card6b.png; sourceTree = "<group>"; };
 		BAB0DB3417CFE15B005D3A2D /* Iphone4.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Iphone4.storyboard; sourceTree = "<group>"; };
-		BAB0DB3617CFE17E005D3A2D /* IpadNonRetina.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IpadNonRetina.storyboard; sourceTree = "<group>"; };
 		BAB0DB3817CFE18C005D3A2D /* IpadRetina.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IpadRetina.storyboard; sourceTree = "<group>"; };
-		BAC2941E17C82240008761C6 /* barcelonalogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcelonalogo.png; sourceTree = "<group>"; };
 		BAC2942217C8351F008761C6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		BAC44D0617AB1330002E21A0 /* unsoloidolo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = unsoloidolo.mp3; path = "../../../Trabajos Android/MisApps/BarcelonaSCMemoryGame/res/raw/unsoloidolo.mp3"; sourceTree = "<group>"; };
 		BAC44D0817AB133F002E21A0 /* amarilloesmicolor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = amarilloesmicolor.mp3; path = "../../../Trabajos Android/MisApps/BarcelonaSCMemoryGame/res/raw/amarilloesmicolor.mp3"; sourceTree = "<group>"; };
+		BAC7C5A8180B9F0E00830891 /* vitereteBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteBaseManager.h; sourceTree = "<group>"; };
+		BAC7C5A9180B9F0E00830891 /* vitereteBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteBaseManager.m; sourceTree = "<group>"; };
+		BAC90DC81826D2360095CCFC /* barcelonalogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcelonalogo.png; sourceTree = "<group>"; };
 		BADCF79C17CC01120090780B /* viteretePuntajesAltosCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viteretePuntajesAltosCell.h; sourceTree = "<group>"; };
 		BADCF79D17CC01120090780B /* viteretePuntajesAltosCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viteretePuntajesAltosCell.m; sourceTree = "<group>"; };
 		BADCF79F17CC164C0090780B /* vitereteCeldaNombre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteCeldaNombre.h; sourceTree = "<group>"; };
 		BADCF7A017CC164C0090780B /* vitereteCeldaNombre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteCeldaNombre.m; sourceTree = "<group>"; };
 		BADCF7A217CC165B0090780B /* vitereteCeldaPuntaje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitereteCeldaPuntaje.h; sourceTree = "<group>"; };
 		BADCF7A317CC165B0090780B /* vitereteCeldaPuntaje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitereteCeldaPuntaje.m; sourceTree = "<group>"; };
+		BAF0563017F46FCF003B2E52 /* bsc14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bsc14.png; sourceTree = "<group>"; };
+		BAF0563417F47250003B2E52 /* bsc14b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bsc14b.png; sourceTree = "<group>"; };
 		BAFE995217B1F7CD00AF8CA6 /* card1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card1.jpg; sourceTree = "<group>"; };
-		BAFE995317B1F7CD00AF8CA6 /* bsc14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bsc14.jpg; sourceTree = "<group>"; };
 		BAFE995417B1F7CD00AF8CA6 /* card10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card10.png; sourceTree = "<group>"; };
 		BAFE995517B1F7CD00AF8CA6 /* card3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card3.jpg; sourceTree = "<group>"; };
 		BAFE995617B1F7CD00AF8CA6 /* card8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card8.jpg; sourceTree = "<group>"; };
 		BAFE995717B1F7CD00AF8CA6 /* card5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card5.jpg; sourceTree = "<group>"; };
-		BAFE995817B1F7CD00AF8CA6 /* card6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card6.jpg; sourceTree = "<group>"; };
 		BAFE995917B1F7CD00AF8CA6 /* card9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card9.jpg; sourceTree = "<group>"; };
 		BAFE995B17B1F7CD00AF8CA6 /* card2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card2.jpg; sourceTree = "<group>"; };
 		BAFE995C17B1F7CD00AF8CA6 /* card4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card4.jpg; sourceTree = "<group>"; };
@@ -136,7 +160,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA496DA317FC95D3006E3FE8 /* iAd.framework in Frameworks */,
 				BAC2942317C8351F008761C6 /* libsqlite3.dylib in Frameworks */,
+				BA4C8E4A1801CB2600CC84E7 /* GameKit.framework in Frameworks */,
 				BAA8057817AA91560030ECF7 /* AVFoundation.framework in Frameworks */,
 				BA09B3EF17A2163100E132BA /* UIKit.framework in Frameworks */,
 				BA09B3F117A2163100E132BA /* Foundation.framework in Frameworks */,
@@ -150,7 +176,8 @@
 		BA09B3E217A2163100E132BA = {
 			isa = PBXGroup;
 			children = (
-				BAC2942417C8352F008761C6 /* Base */,
+				BA4C568617F68D5D008F679F /* bsc120.png */,
+				BA2F13F717EF5589005D287E /* Font */,
 				BA9B763617BF1FF700C79CF9 /* Carta */,
 				BAFE995017B1F79E00AF8CA6 /* Imágenes */,
 				BAC44D0517AB1320002E21A0 /* Canciones */,
@@ -173,6 +200,8 @@
 		BA09B3ED17A2163100E132BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA4C8E491801CB2600CC84E7 /* GameKit.framework */,
+				BA496DA217FC95D3006E3FE8 /* iAd.framework */,
 				BA09B3EE17A2163100E132BA /* UIKit.framework */,
 				BA09B3F017A2163100E132BA /* Foundation.framework */,
 				BA09B3F217A2163100E132BA /* CoreGraphics.framework */,
@@ -188,9 +217,9 @@
 				BA09B40617A2163100E132BA /* MainStoryboard.storyboard */,
 				BAB0DB3417CFE15B005D3A2D /* Iphone4.storyboard */,
 				BAB0DB3817CFE18C005D3A2D /* IpadRetina.storyboard */,
-				BAB0DB3617CFE17E005D3A2D /* IpadNonRetina.storyboard */,
 				BA09B40917A2163100E132BA /* vitereteViewController.h */,
 				BA09B40A17A2163100E132BA /* vitereteViewController.m */,
+				BA9BE96917F7FC900028FF8D /* Images-2.xcassets */,
 				BA09B3F517A2163100E132BA /* Supporting Files */,
 			);
 			path = "Barce Memo 2013";
@@ -203,19 +232,26 @@
 				BA09B3F717A2163100E132BA /* InfoPlist.strings */,
 				BA09B3FA17A2163100E132BA /* main.m */,
 				BA09B3FC17A2163100E132BA /* Barce Memo 2013-Prefix.pch */,
-				BA09B40017A2163100E132BA /* Default.png */,
-				BA09B40217A2163100E132BA /* Default@2x.png */,
-				BA09B40417A2163100E132BA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA2F13F717EF5589005D287E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F13F817EF5596005D287E /* Tequilla Sunrise.ttf */,
+			);
+			name = Font;
 			sourceTree = "<group>";
 		};
 		BA405AE917A4DFDD00654BDC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BA6D8141180DF83000B23CD5 /* Resultado */,
+				BAC2942417C8352F008761C6 /* Base */,
+				BA4C8E4B1801E51400CC84E7 /* Game Center */,
 				BA8EB97817A888BF00A0F24B /* Puntajes Altos */,
 				BA405AEC17A4E00300654BDC /* Preferencias */,
-				BA405AEB17A4DFF800654BDC /* Mejores Puntajes */,
 				BA405AEA17A4DFE400654BDC /* ChallengeMode */,
 			);
 			name = Controllers;
@@ -231,13 +267,6 @@
 			name = ChallengeMode;
 			sourceTree = "<group>";
 		};
-		BA405AEB17A4DFF800654BDC /* Mejores Puntajes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Mejores Puntajes";
-			sourceTree = "<group>";
-		};
 		BA405AEC17A4E00300654BDC /* Preferencias */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,17 +276,32 @@
 			name = Preferencias;
 			sourceTree = "<group>";
 		};
+		BA4C8E4B1801E51400CC84E7 /* Game Center */ = {
+			isa = PBXGroup;
+			children = (
+				BA7F3A6618024FCB00668F8B /* GameCenterManager.h */,
+				BA7F3A6718024FCB00668F8B /* GameCenterManager.m */,
+			);
+			name = "Game Center";
+			path = "Barce Memo 2013";
+			sourceTree = "<group>";
+		};
 		BA5CA0EA17D4439C00ACF4CB /* Iphone */ = {
 			isa = PBXGroup;
 			children = (
+				BAAB7FE91825DABE009A3003 /* card6.png */,
+				BA77846C18245426007AC985 /* fondo4a.png */,
+				BA6D8148180E2E4200B23CD5 /* boton_compartir.png */,
+				BA6D8146180E04D800B23CD5 /* boton_atras.png */,
+				BA6D8142180E011800B23CD5 /* boton_recargar.png */,
+				BA5F587A17F4C71700176C3B /* boton.png */,
+				BAF0563017F46FCF003B2E52 /* bsc14.png */,
 				BA0C3FAA17BF458000E2C73D /* card7.png */,
 				BAFE995217B1F7CD00AF8CA6 /* card1.jpg */,
-				BAFE995317B1F7CD00AF8CA6 /* bsc14.jpg */,
 				BAFE995417B1F7CD00AF8CA6 /* card10.png */,
 				BAFE995517B1F7CD00AF8CA6 /* card3.jpg */,
 				BAFE995617B1F7CD00AF8CA6 /* card8.jpg */,
 				BAFE995717B1F7CD00AF8CA6 /* card5.jpg */,
-				BAFE995817B1F7CD00AF8CA6 /* card6.jpg */,
 				BAFE995917B1F7CD00AF8CA6 /* card9.jpg */,
 				BAFE995B17B1F7CD00AF8CA6 /* card2.jpg */,
 				BAFE995C17B1F7CD00AF8CA6 /* card4.jpg */,
@@ -268,19 +312,30 @@
 		BA5CA0EB17D443A400ACF4CB /* Ipad */ = {
 			isa = PBXGroup;
 			children = (
-				BA5CA0EC17D443CA00ACF4CB /* bsc14b.jpg */,
+				BAAB7FED1825DCA5009A3003 /* card6b.png */,
+				BA77848018247AC8007AC985 /* fondo_ipada.png */,
+				BA5F587E17F4C92A00176C3B /* boton_ipad.png */,
+				BAF0563417F47250003B2E52 /* bsc14b.png */,
 				BA5CA0ED17D443CA00ACF4CB /* card1b.jpg */,
 				BA5CA0EE17D443CA00ACF4CB /* card2b.jpg */,
 				BA5CA0EF17D443CA00ACF4CB /* card3b.jpg */,
 				BA5CA0F017D443CA00ACF4CB /* card4b.jpg */,
 				BA5CA0F117D443CA00ACF4CB /* card5b.jpg */,
-				BA5CA0F217D443CA00ACF4CB /* card6b.jpg */,
 				BA5CA0F317D443CA00ACF4CB /* card7b.png */,
 				BA5CA0F417D443CA00ACF4CB /* card8b.jpg */,
 				BA5CA0F517D443CA00ACF4CB /* card9b.jpg */,
 				BA5CA0F617D443CA00ACF4CB /* card10b.png */,
 			);
 			name = Ipad;
+			sourceTree = "<group>";
+		};
+		BA6D8141180DF83000B23CD5 /* Resultado */ = {
+			isa = PBXGroup;
+			children = (
+				BA6D813E180DF82A00B23CD5 /* vitereteResultadoViewController.h */,
+				BA6D813F180DF82A00B23CD5 /* vitereteResultadoViewController.m */,
+			);
+			name = Resultado;
 			sourceTree = "<group>";
 		};
 		BA8EB97817A888BF00A0F24B /* Puntajes Altos */ = {
@@ -340,6 +395,8 @@
 			isa = PBXGroup;
 			children = (
 				BAC2942217C8351F008761C6 /* libsqlite3.dylib */,
+				BAC7C5A8180B9F0E00830891 /* vitereteBaseManager.h */,
+				BAC7C5A9180B9F0E00830891 /* vitereteBaseManager.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -357,9 +414,9 @@
 		BAFE995017B1F79E00AF8CA6 /* Imágenes */ = {
 			isa = PBXGroup;
 			children = (
+				BAC90DC81826D2360095CCFC /* barcelonalogo.png */,
 				BA5CA0EB17D443A400ACF4CB /* Ipad */,
 				BA5CA0EA17D4439C00ACF4CB /* Iphone */,
-				BAC2941E17C82240008761C6 /* barcelonalogo.png */,
 			);
 			name = "Imágenes";
 			sourceTree = "<group>";
@@ -393,6 +450,16 @@
 				CLASSPREFIX = viterete;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Victor Pinto";
+				TargetAttributes = {
+					BA09B3EA17A2163100E132BA = {
+						DevelopmentTeam = 64HL3XTCN7;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = BA09B3E617A2163100E132BA /* Build configuration list for PBXProject "Barce Memo 2013" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -416,36 +483,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9BE96A17F7FC900028FF8D /* Images-2.xcassets in Resources */,
+				BA6D8143180E011800B23CD5 /* boton_recargar.png in Resources */,
+				BA6D8147180E04D800B23CD5 /* boton_atras.png in Resources */,
+				BA2F13F917EF5596005D287E /* Tequilla Sunrise.ttf in Resources */,
 				BA09B3F917A2163100E132BA /* InfoPlist.strings in Resources */,
-				BA09B40117A2163100E132BA /* Default.png in Resources */,
-				BA09B40317A2163100E132BA /* Default@2x.png in Resources */,
-				BA09B40517A2163100E132BA /* Default-568h@2x.png in Resources */,
+				BAC90DC91826D2360095CCFC /* barcelonalogo.png in Resources */,
+				BA77848518247AC8007AC985 /* fondo_ipada.png in Resources */,
+				BAF0563517F47250003B2E52 /* bsc14b.png in Resources */,
 				BA09B40817A2163100E132BA /* MainStoryboard.storyboard in Resources */,
 				BAA8058017AA973E0030ECF7 /* sisi.mp3 in Resources */,
+				BAF0563117F46FCF003B2E52 /* bsc14.png in Resources */,
 				BAC44D0717AB1330002E21A0 /* unsoloidolo.mp3 in Resources */,
 				BAC44D0917AB133F002E21A0 /* amarilloesmicolor.mp3 in Resources */,
 				BAFE995E17B1F7CD00AF8CA6 /* card1.jpg in Resources */,
-				BAFE995F17B1F7CD00AF8CA6 /* bsc14.jpg in Resources */,
 				BAFE996017B1F7CD00AF8CA6 /* card10.png in Resources */,
+				BA5F587B17F4C71700176C3B /* boton.png in Resources */,
 				BAFE996117B1F7CD00AF8CA6 /* card3.jpg in Resources */,
 				BAFE996217B1F7CD00AF8CA6 /* card8.jpg in Resources */,
+				BA5F587F17F4C92A00176C3B /* boton_ipad.png in Resources */,
 				BAFE996317B1F7CD00AF8CA6 /* card5.jpg in Resources */,
-				BAFE996417B1F7CD00AF8CA6 /* card6.jpg in Resources */,
 				BAFE996517B1F7CD00AF8CA6 /* card9.jpg in Resources */,
 				BAFE996717B1F7CD00AF8CA6 /* card2.jpg in Resources */,
+				BAAB7FEE1825DCA5009A3003 /* card6b.png in Resources */,
+				BA77846D18245426007AC985 /* fondo4a.png in Resources */,
+				BAAB7FEA1825DABE009A3003 /* card6.png in Resources */,
 				BAFE996817B1F7CD00AF8CA6 /* card4.jpg in Resources */,
 				BA0C3FAB17BF458000E2C73D /* card7.png in Resources */,
-				BAC2941F17C82240008761C6 /* barcelonalogo.png in Resources */,
 				BAB0DB3517CFE15B005D3A2D /* Iphone4.storyboard in Resources */,
-				BAB0DB3717CFE17E005D3A2D /* IpadNonRetina.storyboard in Resources */,
 				BAB0DB3917CFE18C005D3A2D /* IpadRetina.storyboard in Resources */,
-				BA5CA0F717D443CA00ACF4CB /* bsc14b.jpg in Resources */,
 				BA5CA0F817D443CA00ACF4CB /* card1b.jpg in Resources */,
 				BA5CA0F917D443CA00ACF4CB /* card2b.jpg in Resources */,
 				BA5CA0FA17D443CA00ACF4CB /* card3b.jpg in Resources */,
 				BA5CA0FB17D443CA00ACF4CB /* card4b.jpg in Resources */,
 				BA5CA0FC17D443CA00ACF4CB /* card5b.jpg in Resources */,
-				BA5CA0FD17D443CA00ACF4CB /* card6b.jpg in Resources */,
+				BA6D8149180E2E4200B23CD5 /* boton_compartir.png in Resources */,
 				BA5CA0FE17D443CA00ACF4CB /* card7b.png in Resources */,
 				BA5CA0FF17D443CA00ACF4CB /* card8b.jpg in Resources */,
 				BA5CA10017D443CA00ACF4CB /* card9b.jpg in Resources */,
@@ -462,6 +534,8 @@
 			files = (
 				BA09B3FB17A2163100E132BA /* main.m in Sources */,
 				BA09B3FF17A2163100E132BA /* vitereteAppDelegate.m in Sources */,
+				BA6D8140180DF82A00B23CD5 /* vitereteResultadoViewController.m in Sources */,
+				BAC7C5AA180B9F0E00830891 /* vitereteBaseManager.m in Sources */,
 				BA09B40B17A2163100E132BA /* vitereteViewController.m in Sources */,
 				BA405AEF17A4E02F00654BDC /* vitereteVCPreferencias.m in Sources */,
 				BA8EB97B17A888FA00A0F24B /* vitereteVCPuntajesAltos.m in Sources */,
@@ -470,6 +544,7 @@
 				BA11A91617B0681300443B2D /* vitereteVCChallengeDificil.m in Sources */,
 				BA64741017B9D022000FBB2E /* vitereteFacilCell.m in Sources */,
 				BA9B763C17BF206F00C79CF9 /* vitereteCarta.m in Sources */,
+				BA7F3A6818024FCB00668F8B /* GameCenterManager.m in Sources */,
 				BADCF79E17CC01120090780B /* viteretePuntajesAltosCell.m in Sources */,
 				BADCF7A117CC164C0090780B /* vitereteCeldaNombre.m in Sources */,
 				BADCF7A417CC165B0090780B /* vitereteCeldaPuntaje.m in Sources */,
@@ -523,9 +598,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -547,9 +623,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -557,11 +634,16 @@
 		BA09B40F17A2163100E132BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Barce Memo 2013/Barce Memo 2013-Prefix.pch";
 				INFOPLIST_FILE = "Barce Memo 2013/Barce Memo 2013-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Barce Memo 2013";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -570,11 +652,16 @@
 		BA09B41017A2163100E132BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Barce Memo 2013/Barce Memo 2013-Prefix.pch";
 				INFOPLIST_FILE = "Barce Memo 2013/Barce Memo 2013-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Barce Memo 2013";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

@@ -13,12 +13,15 @@
 {
     sqlite3 *db;
 }
-@property NSMutableArray *valuesFila;
-@property NSMutableArray *valuesNombre;
-@property NSMutableArray *valuesPuntaje;
+//@property NSMutableArray *valuesFila;
+//@property NSMutableArray *valuesNombre;
+//@property NSMutableArray *valuesPuntaje;
+@property IBOutlet UIActivityIndicatorView *indicador;
+@property (nonatomic,weak) IBOutlet UICollectionView *cv1,*cv2,*cv3;
 
 //base de datos
 -(NSString*)path;
 -(void)abrir;
+-(void)leaderboardCargado;
 
 @end

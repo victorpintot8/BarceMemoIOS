@@ -16,7 +16,7 @@
     { 
         CGSize iOSDeviceScreenSize = [[UIScreen mainScreen] bounds].size;
         
-        if (iOSDeviceScreenSize.height == 480)
+        if (iOSDeviceScreenSize.height <= 480)
         { 
             UIStoryboard *stb = [UIStoryboard storyboardWithName:@"Iphone4" bundle:nil];
             UIViewController *initialViewController = [stb instantiateInitialViewController];
@@ -25,32 +25,9 @@
             [self.window makeKeyAndVisible];
         }
         
-        if (iOSDeviceScreenSize.height == 568)
+        if (iOSDeviceScreenSize.height >= 568)
         { 
             UIStoryboard *stb = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
-            UIViewController *initialViewController = [stb instantiateInitialViewController];
-            self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-            self.window.rootViewController  = initialViewController;
-            [self.window makeKeyAndVisible];
-        }
-        
-    }
-    else if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
-    {
-        CGSize iOSDeviceScreenSize = [[UIScreen mainScreen] bounds].size;
-        
-        if (iOSDeviceScreenSize.height == 1024)
-        {
-            UIStoryboard *stb = [UIStoryboard storyboardWithName:@"IpadRetina" bundle:nil];
-            UIViewController *initialViewController = [stb instantiateInitialViewController];
-            self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-            self.window.rootViewController  = initialViewController;
-            [self.window makeKeyAndVisible];
-        }
-        
-        if (iOSDeviceScreenSize.height == 512)
-        {
-            UIStoryboard *stb = [UIStoryboard storyboardWithName:@"IpadNonRetina" bundle:nil];
             UIViewController *initialViewController = [stb instantiateInitialViewController];
             self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
             self.window.rootViewController  = initialViewController;

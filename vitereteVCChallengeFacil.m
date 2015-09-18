@@ -11,6 +11,9 @@
 #import "vitereteFacilCell.h"
 #import "vitereteCarta.h"
 #import "vitereteViewController.h"
+#import "GameCenterManager.h"
+#import "vitereteResultadoViewController.h"
+#import "vitereteBaseManager.h"
 
 @interface vitereteVCChallengeFacil ()
 {
@@ -24,7 +27,7 @@
 
 @implementation vitereteVCChallengeFacil
 
-@synthesize sonido,url,BTreiniciar,timer,LBpuntaje,LBtiempo,LBturnos,cv;
+@synthesize sonido,url,BTreiniciar,timer,LBpuntaje,LBtiempo,LBturnos,cv,ad;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,16 +40,45 @@
 
 - (void)viewDidLoad
 {
-    [self abrir];
-    [self crearTabla:@"Tabla_Jugador" conClave:@"_id" conNombre:@"nombre_jugador" conPuntaje:@"puntaje_jugador"];
+    //[[vitereteBaseManager solicitarHelper]path];
+    //[[vitereteBaseManager solicitarHelper]abrir];
+    //[[vitereteBaseManager solicitarHelper]resetearBase];
+    //[[GameCenterManager solicitarHelper]resetLogros];
     [super viewDidLoad];
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone)
+    {
+        self.cv.backgroundColor = [UIColor clearColor];
+        self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"fondo4a.png"]];
+    }
+    else if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
+    {
+        self.cv.backgroundColor = [UIColor clearColor];
+        self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"fondo_ipada.png"]];
+    }
     [self reproducirSonido];
     [self reiniciar:self];
     
 	// Do any additional setup after loading the view.
 }
+
+-(void)viewWillAppear:(BOOL)animated{
+    [[self navigationController] setNavigationBarHidden:NO animated:YES];
+    if(self.ad==NO){
+        [self reproducirSonido];
+        [self reiniciar:self];
+    }
+    else{
+        self.ad=NO;
+    }
+}
 -(void)viewWillDisappear:(BOOL)animated{
-    [self.sonido stop];
+    if(self.ad){
+        [self.sonido pause];
+    }
+    else{
+        [self.sonido stop];
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -58,30 +90,6 @@
 -(NSString*)path{
     NSArray *paths=NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     return [[paths objectAtIndex:0]stringByAppendingPathComponent:@"bp.sql"];
-}
-
--(void)abrir{
-    if(sqlite3_open([[self path]UTF8String], &db) != SQLITE_OK){
-        sqlite3_close(db);
-        NSAssert(0, @"Fallo al abrir la base de datos");
-    }
-    else{
-        NSLog(@"Se abrio satisfactoriamente la base de datos");
-    }
-    
-}
-
--(void)crearTabla:(NSString *)nombreTabla conClave:(NSString *)clave conNombre:(NSString *)nombre conPuntaje:(NSString *)puntaje1{
-    char *err;
-    NSString *sql=[NSString stringWithFormat:@"CREATE TABLE IF NOT EXISTS '%@' ('%@' " "INTEGER PRIMARY KEY AUTOINCREMENT, '%@' TEXT, '%@' INTEGER);",nombreTabla,clave,nombre,puntaje1];
-    if(sqlite3_exec(db, [sql UTF8String], NULL, NULL, &err)!=SQLITE_OK){
-        sqlite3_close(db);
-        NSAssert(0, @"Error al crear la tabla");
-    }
-    else{
-        NSLog(@"La tabla se creo satisfactoriamente");
-    }
-    
 }
 
 -(void)reproducirSonido{
@@ -132,21 +140,19 @@
     
     if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone)
     {
-        imagenesTemp=[NSMutableArray arrayWithObjects:@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg",@"bsc14.jpg", nil];
-        imagenes=[NSMutableArray arrayWithObjects:@"card1.jpg", @"card2.jpg", @"card3.jpg", @"card4.jpg", @"card5.jpg", @"card6.jpg",@"card1.jpg", @"card2.jpg", @"card3.jpg", @"card4.jpg", @"card5.jpg", @"card6.jpg", nil];
+        imagenesTemp=[NSMutableArray arrayWithObjects:@"bsc14.png",@"bsc14.png",@"bsc14.png",@"bsc14.png",@"bsc14.png",@"bsc14.png",@"bsc14.png",@"bsc14.png",@"bsc14.png",@"bsc14.png",@"bsc14.png",@"bsc14.png", nil];
+        imagenes=[NSMutableArray arrayWithObjects:@"card1.jpg", @"card2.jpg", @"card3.jpg", @"card4.jpg", @"card5.jpg", @"card6.png",@"card1.jpg", @"card2.jpg", @"card3.jpg", @"card4.jpg", @"card5.jpg", @"card6.png", nil];
         
     }
     else if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
     {
-        imagenesTemp=[NSMutableArray arrayWithObjects:@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg",@"bsc14b.jpg", nil];
-        imagenes=[NSMutableArray arrayWithObjects:@"card1b.jpg", @"card2b.jpg", @"card3b.jpg", @"card4b.jpg", @"card5b.jpg", @"card6b.jpg",@"card1b.jpg", @"card2b.jpg", @"card3b.jpg", @"card4b.jpg", @"card5b.jpg", @"card6b.jpg", nil];
-        
+        imagenesTemp=[NSMutableArray arrayWithObjects:@"bsc14b.png",@"bsc14b.png",@"bsc14b.png",@"bsc14b.png",@"bsc14b.png",@"bsc14b.png",@"bsc14b.png",@"bsc14b.png",@"bsc14b.png",@"bsc14b.png",@"bsc14b.png",@"bsc14b.png", nil];
+        imagenes=[NSMutableArray arrayWithObjects:@"card1b.jpg", @"card2b.jpg", @"card3b.jpg", @"card4b.jpg", @"card5b.jpg", @"card6b.png",@"card1b.jpg", @"card2b.jpg", @"card3b.jpg", @"card4b.jpg", @"card5b.jpg", @"card6b.png", nil];
     }
     [self shuffle];
     [self.cv reloadData];
     [self.timer invalidate];
-    self.timer=[NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(aumentarTiempo) userInfo:nil repeats:YES];
-    
+    self.timer=[NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(aumentarTiempo) userInfo:nil repeats:YES];    
 }
 
 -(void)aumentarTiempo{
@@ -172,7 +178,7 @@
 //datasource
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     vitereteFacilCell *celda=[collectionView dequeueReusableCellWithReuseIdentifier:@"CeldaID" forIndexPath:indexPath];
-    
+    [celda setAlpha:1.0f];
     if(contInicio.intValue==0){
         [[celda collectionIV]setImage:[UIImage imageNamed:[imagenes objectAtIndex:indexPath.item]]];   
         [self performSelector:@selector(recargar) withObject:nil afterDelay:1.0];
@@ -180,13 +186,14 @@
     }
     else{
         [[celda collectionIV]setImage:[UIImage imageNamed:[imagenesTemp objectAtIndex:indexPath.item]]];
+        [celda setAlpha:1.0f];
         return celda;
     }  
     
 }
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return imagenes.count;
+    return [imagenes count];
 }
 
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
@@ -199,7 +206,10 @@
         v1pos=[NSNumber numberWithInteger:indexPath.item];
         primeraCarta=[[vitereteCarta alloc]initWithId:[imagenes objectAtIndex:indexPath.item]];
         primeraCelda=[collectionView cellForItemAtIndexPath:indexPath];
-        [[primeraCelda collectionIV]setImage:[UIImage imageNamed:[imagenes objectAtIndex:indexPath.item]]];
+        [UIView transitionWithView:[primeraCelda collectionIV] duration:0.4
+                           options:UIViewAnimationOptionTransitionFlipFromRight animations:^{
+                               [[primeraCelda collectionIV]setImage:[UIImage imageNamed:[imagenes objectAtIndex:indexPath.item]]];
+                           } completion:nil];
         cont=[NSNumber numberWithInt:[cont intValue] + 1];
     }
     else{
@@ -213,12 +223,15 @@
         else{
             segundaCelda=[collectionView cellForItemAtIndexPath:indexPath];
             segundaCarta=[[vitereteCarta alloc]initWithId:[imagenes objectAtIndex:indexPath.item]];
-            [[segundaCelda collectionIV]setImage:[UIImage imageNamed:[imagenes objectAtIndex:indexPath.item]]];
+            [UIView transitionWithView:[segundaCelda collectionIV] duration:0.4
+                               options:UIViewAnimationOptionTransitionFlipFromRight animations:^{
+                                   [[segundaCelda collectionIV]setImage:[UIImage imageNamed:[imagenes objectAtIndex:indexPath.item]]];
+                               } completion:nil];
             if([self compar:[primeraCarta identificador] ar:[segundaCarta identificador]]){
                 turnos = [NSNumber numberWithInt:[turnos intValue] + 1];
                 self.LBturnos.text=[NSString stringWithFormat:@"%@",turnos];
                 collectionView.userInteractionEnabled=NO;
-                [self performSelector:@selector(esconder) withObject:nil afterDelay:1.0];
+                [self performSelector:@selector(esconder) withObject:nil afterDelay:0.900];
                 contwinner = [NSNumber numberWithInt:[contwinner intValue] + 1];
                 puntaje = [NSNumber numberWithInt:[puntaje intValue] + 500];
                 self.LBpuntaje.text=[NSString stringWithFormat:@"%@",puntaje];
@@ -228,7 +241,7 @@
                 turnos = [NSNumber numberWithInt:[turnos intValue] + 1];
                 self.LBturnos.text=[NSString stringWithFormat:@"%@",turnos];
                 collectionView.userInteractionEnabled=NO;
-                [self performSelector:@selector(reponer:) withObject:indexPath afterDelay:1.0]; 
+                [self performSelector:@selector(reponer:) withObject:indexPath afterDelay:0.900];
             }
             cont=0;
         }
@@ -259,35 +272,35 @@
     if([contwinner intValue]==6){
         NSString *TVTbonoturnos,*TVTtiempo;
         switch(turnos.intValue){
-            case 6:bonoturnos=[NSNumber numberWithInt:turnos.intValue*1000];
-                TVTbonoturnos=[NSString stringWithFormat:@"%@ x 1000",turnos.stringValue];
+            case 6:bonoturnos=[NSNumber numberWithInt:10000];
+                TVTbonoturnos=[NSString stringWithFormat:@"10000"];
                 break;
-            case 7:bonoturnos=[NSNumber numberWithInt:turnos.intValue*900];
-                TVTbonoturnos=[NSString stringWithFormat:@"%@ x 900",turnos.stringValue];
+            case 7:bonoturnos=[NSNumber numberWithInt:9000];
+                TVTbonoturnos=[NSString stringWithFormat:@"9000"];
                 break;
-            case 8:bonoturnos=[NSNumber numberWithInt:turnos.intValue*800];
-                TVTbonoturnos=[NSString stringWithFormat:@"%@ x 800",turnos.stringValue];
+            case 8:bonoturnos=[NSNumber numberWithInt:8000];
+                TVTbonoturnos=[NSString stringWithFormat:@"8000"];
                 break;
-            case 9:bonoturnos=[NSNumber numberWithInt:turnos.intValue*700];
-                TVTbonoturnos=[NSString stringWithFormat:@"%@ x 700",turnos.stringValue];
+            case 9:bonoturnos=[NSNumber numberWithInt:7000];
+                TVTbonoturnos=[NSString stringWithFormat:@"7000"];
                 break;
-            case 10:bonoturnos=[NSNumber numberWithInt:turnos.intValue*600];
-                TVTbonoturnos=[NSString stringWithFormat:@"%@ x 600",turnos.stringValue];
+            case 10:bonoturnos=[NSNumber numberWithInt:6000];
+                TVTbonoturnos=[NSString stringWithFormat:@"6000"];
                 break;
-            case 11:bonoturnos=[NSNumber numberWithInt:turnos.intValue*500];
-                TVTbonoturnos=[NSString stringWithFormat:@"%@ x 500",turnos.stringValue];
+            case 11:bonoturnos=[NSNumber numberWithInt:5000];
+                TVTbonoturnos=[NSString stringWithFormat:@"5000"];
                 break;
-            case 12:bonoturnos=[NSNumber numberWithInt:turnos.intValue*400];
-                TVTbonoturnos=[NSString stringWithFormat:@"%@ x 400",turnos.stringValue];
+            case 12:bonoturnos=[NSNumber numberWithInt:4000];
+                TVTbonoturnos=[NSString stringWithFormat:@"4000"];
                 break;
-            case 13:bonoturnos=[NSNumber numberWithInt:turnos.intValue*300];
-                TVTbonoturnos=[NSString stringWithFormat:@"%@ x 300",turnos.stringValue];
+            case 13:bonoturnos=[NSNumber numberWithInt:3000];
+                TVTbonoturnos=[NSString stringWithFormat:@"3000"];
                 break;
-            case 14:bonoturnos=[NSNumber numberWithInt:turnos.intValue*200];
-                TVTbonoturnos=[NSString stringWithFormat:@"%@ x 200",turnos.stringValue];
+            case 14:bonoturnos=[NSNumber numberWithInt:2000];
+                TVTbonoturnos=[NSString stringWithFormat:@"2000"];
                 break;
             default:bonoturnos=0;
-                TVTbonoturnos=[NSString stringWithFormat:@"%@ + 0",turnos.stringValue];
+                TVTbonoturnos=[NSString stringWithFormat:@"0"];
                 break;
         }
         
@@ -314,13 +327,13 @@
             }
             else{
                 TVTtiempo=[NSString stringWithFormat:@"%@ s",segundos.stringValue];
-                bonotiempo=[NSNumber numberWithInt:100];
+                bonotiempo=[NSNumber numberWithInt:500];
             }
         }
         else{
             if(segundos.intValue<10){
                 TVTtiempo=[NSString stringWithFormat:@"%@:0%@ s",minutos.stringValue,segundos.stringValue];
-                bonotiempo=[NSNumber numberWithInt:500];
+                bonotiempo=[NSNumber numberWithInt:250];
             }
             else{
                 TVTtiempo=[NSString stringWithFormat:@"%@:%@ s",minutos.stringValue,segundos.stringValue];
@@ -328,9 +341,15 @@
             }
         }     
         puntajef=[NSNumber numberWithInt:bonotiempo.intValue+bonoturnos.intValue+puntaje.intValue];
-        [self insertarPuntaje:puntajef];
-        self.alerta = [[UIAlertView alloc] initWithTitle:@"Ganaste!!!" message:[NSString stringWithFormat:@"Turnos: %@ \n Tiempo: %@ \n Puntaje: %@ \n Bono por turnos: %@ \n Bono por tiempo: %@ \n Puntaje total: %@ \n",turnos.stringValue,TVTtiempo,puntaje.stringValue,TVTbonoturnos,bonotiempo.stringValue,puntajef.stringValue] delegate:self cancelButtonTitle:nil otherButtonTitles:@"Comparte",@"Replay",@"Salir", nil];
-        [self.alerta  show];
+        vitereteResultadoViewController *resultado=[self.storyboard instantiateViewControllerWithIdentifier:@"resultado"];
+        resultado.Spuntaje=puntaje.stringValue;
+        resultado.Stiempo=TVTtiempo;
+        resultado.Sturnos=turnos.stringValue;
+        resultado.SbonoTurnos=TVTbonoturnos;
+        resultado.SbonoTiempo=bonotiempo.stringValue;
+        resultado.SpuntajeTotal=puntajef.stringValue;
+        [self.navigationController pushViewController:resultado animated:YES];
+        [timer invalidate];
     }
 }
 
@@ -338,26 +357,32 @@
     [self.alerta dismissWithClickedButtonIndex:0 animated:YES];
 }
 -(void)esconder{
-    [primeraCelda setHidden:YES];
-    [segundaCelda setHidden:YES];
+    [primeraCelda setAlpha:0.0f];
+    [segundaCelda setAlpha:0.0f];
     self.cv.userInteractionEnabled=YES;
 }
 
 -(void)reponer:(NSIndexPath*)index{
-    [[primeraCelda collectionIV]setImage:[UIImage imageNamed:[imagenesTemp objectAtIndex:[v1pos intValue]]]];
-    [[segundaCelda collectionIV]setImage:[UIImage imageNamed:[imagenesTemp objectAtIndex:index.item]]];
+    [UIView transitionWithView:[primeraCelda collectionIV] duration:0.4
+                       options:UIViewAnimationOptionTransitionFlipFromRight animations:^{
+                           [[primeraCelda collectionIV]setImage:[UIImage imageNamed:[imagenesTemp objectAtIndex:[v1pos intValue]]]];
+                       } completion:nil];
+    [UIView transitionWithView:[segundaCelda collectionIV] duration:0.4
+                       options:UIViewAnimationOptionTransitionFlipFromRight animations:^{
+                           [[segundaCelda collectionIV]setImage:[UIImage imageNamed:[imagenesTemp objectAtIndex:[v1pos intValue]]]];
+                       } completion:nil];
     self.cv.userInteractionEnabled=YES;
 }
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
-    NSString *mensaje=[NSString stringWithFormat:@"Mi puntuación en Barce Memo 2013 fue: %@, Quieres superarme? Bajate la aplicación aquí....",puntajef.stringValue];
+    NSString *mensaje=[NSString stringWithFormat:@"Mi puntuación en Barce Memo 2013 fue: %@, Quieres superarme? Bajate la aplicación aquí https://itunes.apple.com/us/app/barce-memo/id721350353?l=es&ls=1&mt=8",puntajef.stringValue];
     UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:[NSArray arrayWithObject:mensaje] applicationActivities:nil];
     switch (buttonIndex) {
         case 0:
             [self presentViewController:activityController animated:YES completion:nil];
             break;
         case 1:
-            self.viewDidLoad;
+            [self reiniciar:self];
             break;
         case 2:
             [self.navigationController popToRootViewControllerAnimated:YES];
@@ -371,14 +396,33 @@
     self.cv.userInteractionEnabled=YES;
 }
 
--(void)insertarPuntaje:(NSNumber *)puntajeFinal{
-    NSString *sql=[NSString stringWithFormat:@"INSERT INTO Tabla_Jugador ('nombre_jugador', 'puntaje_jugador') VALUES ('%@', '%d')",[[UIDevice currentDevice]name],puntajeFinal.intValue];
-    char *err;
-    if(sqlite3_exec(db, [sql UTF8String], NULL, NULL, &err) != SQLITE_OK){
-        sqlite3_close(db);
-        NSAssert(0, @"Error al crear un registro %@",[NSString stringWithUTF8String:sqlite3_errmsg(db)]);
-    }
-    NSLog(@"El registro se creo satisfactoriamente");
+-(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error{
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:1];
+    [banner setAlpha:0];
+    [UIView commitAnimations];
 }
+
+-(BOOL)bannerViewActionShouldBegin:(ADBannerView *)banner willLeaveApplication:(BOOL)willLeave{
+    [self.timer invalidate];
+    [self.sonido pause];
+    self.ad=YES;
+    return YES;
+}
+
+-(void)bannerViewDidLoadAd:(ADBannerView *)banner{
+    [banner setAlpha:0];
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:1];
+    [banner setAlpha:1.0];
+    [UIView commitAnimations];
+}
+
+-(void)bannerViewActionDidFinish:(ADBannerView *)banner{
+    self.timer=[NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(aumentarTiempo) userInfo:nil repeats:YES];
+    [self.sonido play];
+    
+}
+
 
 @end

@@ -10,6 +10,7 @@
 #import "vitereteVCChallengeFacil.h"
 #import "vitereteVCChallengeMedio.h"
 #import "vitereteVCChallengeDificil.h"
+#import "GameCenterManager.h"
 
 @interface vitereteViewController ()
 
@@ -17,10 +18,25 @@
 
 @implementation vitereteViewController
 
+@synthesize titulo;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [[self navigationController] setNavigationBarHidden:NO animated:YES];
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone)
+    {
+        self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"fondo4a.png"]];
+       [self.titulo setFont:[UIFont fontWithName:@"Tequilla Sunrise" size:30.0]];
+    }
+    else if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
+    {
+         //CGSize iOSDeviceScreenSize = [[UIScreen mainScreen] bounds].size;
+        [self.titulo setFont:[UIFont fontWithName:@"Tequilla Sunrise" size:55.0]];
+             self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"fondo_ipada.png"]];
+    }    
+    [[GameCenterManager solicitarHelper]autenticarJugador];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -30,8 +46,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [[self navigationController] setNavigationBarHidden:NO animated:YES];
+}
+
 -(IBAction)elegirNivel:(id)sender{
-    UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Elige el nivel" message:nil delegate:self cancelButtonTitle:nil otherButtonTitles:@"Fácil",@"Medio",@"Difícil",@"Cancelar", nil];
+    UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Nivel de dificultad" message:nil delegate:self cancelButtonTitle:nil otherButtonTitles:@"Fácil",@"Medio",@"Difícil",@"Cancelar", nil];
    [message show];
 }
 
@@ -55,6 +75,20 @@
     }
 }
 
+-(void)mostrarLogrosController:(id)sender{
+    GKGameCenterViewController *gameCenterController = [[GKGameCenterViewController alloc] init];
+    if (gameCenterController != nil)
+    {
+        gameCenterController.gameCenterDelegate =self;
+        gameCenterController.viewState = GKGameCenterViewControllerStateAchievements;
+        [self presentViewController: gameCenterController animated: YES
+                         completion:nil];
+    }
+}
 
+- (void)gameCenterViewControllerDidFinish:(GKGameCenterViewController
+                                           *)gameCenterViewController{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 @end

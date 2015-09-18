@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface vitereteFacilCell : UICollectionViewCell
+
 @property (weak, nonatomic) IBOutlet UIImageView *collectionIV;
-
-
 
 @end

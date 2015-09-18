@@ -49,6 +49,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone)
+    {
+        self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"fondo4a.png"]];
+    }
+    else if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
+    {
+        self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"fondo_ipada.png"]];
+    }
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     self.listaCanciones=[NSMutableArray arrayWithObjects:@"Un solo ídolo",@"Si, si señores",@"Amarillo es mi color", nil];
     if([defaults integerForKey:@"estadoSwitch"]==0){
